@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: stockcentercar
+  datasource:
+    url: jdbc:postgresql://localhost:5432/stockcentercar #host
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
